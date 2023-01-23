@@ -1,21 +1,6 @@
-## 可直接提供 Transit 的位置
-> MoeIX 未写在列表内
-> 
-> 除此之外的所有位置均可提供 Transit，但因没有当地上游，延迟会增加。
-
-| Location | Upstream | IXP | v4 / v6 | Speed | Looking Glass | 
-| :----: | :----: | :----: | :----: | :----: | :----: |
-| Taipei | AS6939 | STUIX | × / √ | 1 Gbps | - |
-| Seattle, US | AS36369 | - | √ / √ | 1 Gbps | - |
-| Dallas, US | AS33696 | - | √ / √ | 1 Gbps | - |
-| Vancouver, CA | AS53356 / AS6939 | UMETERED Exchange | √ / √ | 1 Gbps | - |
-| Toronto, CA | AS835 / AS6939 | ONIX | √ / √ | 500 Mbps | - |
-| Amsterdam, NL | AS34465 | INTERIX | √ / √ | 10 Gbps | - |
-|  |  |  |  |  |  |
-
-
 ## 网络位置
 >此部分 IP 协议栈、速率为节点支持情况，并非 IX 的连接情况
+
 
 ### 中国
 >为防止拼音混淆，中国大陆城市使用中文标注

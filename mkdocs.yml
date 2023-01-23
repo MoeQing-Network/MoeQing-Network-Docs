@@ -13,4 +13,5 @@ extra_css:
 nav:
   - Home: index.md
   - Location: location.md
+  - Transit: transit.md
   # - Looking Glass: lg.md
