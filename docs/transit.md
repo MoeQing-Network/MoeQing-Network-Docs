@@ -20,4 +20,4 @@
 |  |  |  |  |  |  |
 
 
-所有网络位置请查看 [Location]("./location/")
+所有网络位置请查看 [Location](./location.md)
