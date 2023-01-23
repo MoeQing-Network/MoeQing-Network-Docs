@@ -1,0 +1,16 @@
+site_name: 帮助文档 - MoeQing Network
+
+theme: 
+  name: material
+  language: zh
+  highlightjs: true
+
+extra_css:
+  - css/hidefooter.css
+
+#repo_url: https://github.com/MoeQing-Network/MoeIX-Homepage
+
+nav:
+  - Home: index.md
+  # - Members: members.md
+  # - Looking Glass: lg.md
