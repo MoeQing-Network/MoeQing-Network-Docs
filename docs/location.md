@@ -98,7 +98,6 @@
 | San Jose, CA, US | - | × / √ | 1 Gbps | - |
 | Los Angeles, CA, US | - | √ / √ | 1 Gbps | - |
 | Dallas, TX, US | - | √ / √ | 1 Gbps | - |
-| Toronto, CA | ONIX | √ / √ | 500Mbps | - |
 | Vancouver, CA | UMETERED Exchange | √ / √ | 1 Gbps | - |
 
 

@@ -18,7 +18,6 @@
 | Taipei | AS6939 | STUIX | × / √ | 1 Gbps |
 | Seattle, US | AS36369 | MoeIX SEA | √ / √ | 1 Gbps |
 | Vancouver, CA | AS53356 / AS6939 | UMETERED Exchange | √ / √ | 1 Gbps |
-| Toronto, CA | AS835 / AS6939 | ONIX | √ / √ | 500 Mbps |
 | Amsterdam, NL | AS34465 | INTERIX | √ / √ | 10 Gbps |
 
 ### 与 Tier 3 ISP 或 其他类型 ISP 建立连接的位置
