@@ -1,4 +1,7 @@
-# MoeQing Network Service
+# MoeQing Network | AS138211
+
+# MoeQing Network | AS138211
+
 
 ## Internal Community:
 ```
@@ -10,7 +13,7 @@
 (138211,  101, region_code)   allow bgp_local_perf
 (138211,  201, region_code)   transit routes
 (138211,  202, region_code)   peer routes
-(138211,  203, region_code)   customer routes / announced to all locations
+(138211,  203, region_code)   customer routes
 (138211,  204, region_code)   ibgp routes
 ```
 
@@ -51,10 +54,10 @@
     (138211, 1201, 6939):  don't do this action(prepend 2) to AS6939
   do not announce to anyone: 
     (138211, 1000, 0):     do not announce to everyone
-  announced to all locations:
-    (138211, 203, 0) announced to all locations
-  announced in Asia only:
-    To be added
+  announce to all locations:
+    (138211, 1019, 0):     announce to all locations
+  announce in Asia-E only:
+    (138211, 1011, 52):    announce to Asia-E location
 ```
 
 ## Informational Community
