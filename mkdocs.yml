@@ -12,6 +12,7 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Community: community.md
   - Location: location.md
   - Transit: transit.md
   # - Looking Glass: lg.md
