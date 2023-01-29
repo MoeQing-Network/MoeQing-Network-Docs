@@ -1,23 +1,5 @@
 # MoeQing Network | AS138211
 
-## Internal Community:
-
->(138211, <999,  0)            Community for all my node
->
->(138211, <999,  1)            Community only for this node
-
-```
-(138211,    1, *)   do not send to ibgp
-(138211,    2, *)   do not send to ebgp
-(138211,    3, *)   do not send to kernel
-(138211,  101, *)   allow bgp_local_perf
-(138211,  201, *)   transit routes
-(138211,  202, *)   peer routes
-(138211,  203, *)   customer routes
-(138211,  204, *)   ixp routes
-(138211,  209, *)   ibgp routes
-```
-
 ## Control Community:
 ```
  Actions:
