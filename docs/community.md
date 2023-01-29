@@ -1,20 +1,21 @@
 # MoeQing Network | AS138211
 
-# MoeQing Network | AS138211
-
-
 ## Internal Community:
+
+>(138211, <999,  0)            Community for all my node
+>
+>(138211, <999,  1)            Community only for this node
+
 ```
-(138211, <999,  0)            Community for all my node
-(138211, <999,  1)            Community only for this node
-(138211,    1, region_code)   do not send to ibgp
-(138211,    2, region_code)   do not send to ebgp
-(138211,    3, region_code)   do not send to kernel
-(138211,  101, region_code)   allow bgp_local_perf
-(138211,  201, region_code)   transit routes
-(138211,  202, region_code)   peer routes
-(138211,  203, region_code)   customer routes
-(138211,  204, region_code)   ibgp routes
+(138211,    1, *)   do not send to ibgp
+(138211,    2, *)   do not send to ebgp
+(138211,    3, *)   do not send to kernel
+(138211,  101, *)   allow bgp_local_perf
+(138211,  201, *)   transit routes
+(138211,  202, *)   peer routes
+(138211,  203, *)   customer routes
+(138211,  204, *)   ixp routes
+(138211,  209, *)   ibgp routes
 ```
 
 ## Control Community:
@@ -40,6 +41,7 @@
   (138211, 1*30, 1)            Do action to upstreams
   (138211, 1*30, 2)            Do action to peers
   (138211, 1*30, 3)            Do action to downstreams
+  (138211, 1*30, 4)            Do action to ixp RS
 ```
 
 ## Examples:
