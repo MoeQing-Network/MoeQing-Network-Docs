@@ -21,9 +21,10 @@
   (138211, 1*21, country_code) Don't do action to this country
   (138211, 1*22, country_code) Do action to this country
   (138211, 1*30, 1)            Do action to upstreams
-  (138211, 1*30, 2)            Do action to peers
-  (138211, 1*30, 3)            Do action to downstreams
-  (138211, 1*30, 4)            Do action to ixp RS
+  (138211, 1*30, 2)            Do action to ixp rs
+  (138211, 1*30, 3)            Do action to peers
+  (138211, 1*30, 4)            Do action to downstreams
+  (138211, 1*30, 8)            Do action to route collectors
 ```
 
 ## Examples:
