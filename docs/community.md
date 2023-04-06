@@ -1,4 +1,4 @@
-# MoeQing Network | AS138211
+# MoeQing Network | AS200105
 
 ## Control Community:
 ```
@@ -10,46 +10,46 @@
   * = 8   prepend 8 to target
  Action target selector:
   * = Action
-  (138211, 1*00, 0)            Do action to everyone
-  (138211, 1*01, asn)          Don't do action to this asn
-  (138211, 1*02, asn)          Do action to this asn
-  (138211, 1*10, 0)            Do action to every region
-  (138211, 1*11, region_code)  Don't do action to this region
-  (138211, 1*12, region_code)  Do action to this region
-  (138211, 1019, 0)            Disable (asn, 1010, 0),  (asn, 1011, local_region) as default value
-  (138211, 1*20, 0)            Do action to every country
-  (138211, 1*21, country_code) Don't do action to this country
-  (138211, 1*22, country_code) Do action to this country
-  (138211, 1*30, 1)            Do action to upstreams
-  (138211, 1*30, 2)            Do action to ixp rs
-  (138211, 1*30, 3)            Do action to peers
-  (138211, 1*30, 4)            Do action to downstreams
-  (138211, 1*30, 8)            Do action to route collectors
+  (200105, 1*00, 0)            Do action to everyone
+  (200105, 1*01, asn)          Don't do action to this asn
+  (200105, 1*02, asn)          Do action to this asn
+  (200105, 1*10, 0)            Do action to every region
+  (200105, 1*11, region_code)  Don't do action to this region
+  (200105, 1*12, region_code)  Do action to this region
+  (200105, 1019, 0)            Disable (asn, 1010, 0),  (asn, 1011, local_region) as default value
+  (200105, 1*20, 0)            Do action to every country
+  (200105, 1*21, country_code) Don't do action to this country
+  (200105, 1*22, country_code) Do action to this country
+  (200105, 1*30, 1)            Do action to upstreams
+  (200105, 1*30, 2)            Do action to ixp rs
+  (200105, 1*30, 3)            Do action to peers
+  (200105, 1*30, 4)            Do action to downstreams
+  (200105, 1*30, 8)            Do action to route collectors
 ```
 
 ## Examples:
 ```
   prepend 11 to AS6939: 
-     (138211, 1102, 6939): prepend 1 to AS6939
-     (138211, 1202, 6939): prepend 2 to AS6939
-     (138211, 1802, 6939): prepend 8 to AS6939
+     (200105, 1102, 6939): prepend 1 to AS6939
+     (200105, 1202, 6939): prepend 2 to AS6939
+     (200105, 1802, 6939): prepend 8 to AS6939
                  Total : 1+2+8 = 11
   prepend 2 to everyone but 6939:
-    (138211, 1200, 0):     prepend 2 to everyone
-    (138211, 1201, 6939):  don't do this action(prepend 2) to AS6939
+    (200105, 1200, 0):     prepend 2 to everyone
+    (200105, 1201, 6939):  don't do this action(prepend 2) to AS6939
   do not announce to anyone: 
-    (138211, 1000, 0):     do not announce to everyone
+    (200105, 1000, 0):     do not announce to everyone
   announce to all region:
-    (138211, 1019, 0):     announce to all region
+    (200105, 1019, 0):     announce to all region
   announce in Asia-E only:
-    (138211, 1010, 0):     do not announce to every region
-    (138211, 1011, 52):    but announce to Asia-E region
+    (200105, 1010, 0):     do not announce to every region
+    (200105, 1011, 52):    but announce to Asia-E region
 ```
 
 ## Informational Community
 ```
-(138211, 10000, region_code)    Received from region
-(138211, 10001, country_code)   Received from country
+(200105, 10000, region_code)    Received from region
+(200105, 10001, country_code)   Received from country
 ```
 
 ## Region code:
