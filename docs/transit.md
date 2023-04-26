@@ -15,7 +15,8 @@
 ### 与 Tier 1/2 ISP 建立连接的位置
 | Location | Upstream | IXP | v4 / v6 | Speed |
 | :----: | :----: | :----: | :----: | :----: |
-| Taipei | AS6939 | STUIX | × / √ | 1 Gbps |
+| Hong Kong `!` | AS138997 | ZXIX HKG | × / √ | 1 Gbps |
+| Taipei | AS6939 / AS138997 | STUIX | × / √ | 1 Gbps |
 | Singapore | AS8849 | - | × / √ | 10 Gbps |
 | Seattle, US | AS36369 | MoeIX SEA | √ / √ | 1 Gbps |
 | Los Angeles, US | AS8849 | - | × / √ | 10 Gbps |
@@ -27,7 +28,10 @@
 | Moscow, RU | AS56630 | - | × / √ | 10 Gbps |
 | Frankfurt 2, DE | AS6939 / AS34927* | LocIX / FogIX | × / √ | 1 Gbps |
 
-`*` 为需要 `LOA` 或 `上游添加白名单` 的 upstream
+`*` 为需要 `LOA` 或 `上游添加白名单` 的 upstream.
+
+`!` 由于成本问题，香港地区不接受公开申请，仅限邀请制。
+
 
 ### 与 Tier 3 ISP 或 其他类型 ISP 建立连接的位置
 | Location | Upstream | IXP | v4 / v6 | Speed |

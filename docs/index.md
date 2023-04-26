@@ -6,7 +6,7 @@
 * MoeQing 的网络支持 IPv6 和 Anycast （测试），可以提供更多的地址空间和更好的访问体验，适应未来的网络发展。
 * MoeQing 连接了多个区域网络，可以覆盖多个大洲的多个地区，提供更多的选择和可能性。
 * MoeQing 提供了丰富的社区标签和路由策略，可以为用户提供精确的路由控制。
-另外，MoeQing 提供了一些网络工具，方便用户使用和学习，如 NextTrace 、 MoeTraceRoute(开发中) 
+* 另外，MoeQing 提供了一些网络工具，方便用户使用和学习，如 NextTrace 、 MoeTraceRoute(开发中) 
 
 > 请从导航栏选择需要的帮助页面
 
